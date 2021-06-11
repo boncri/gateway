@@ -7,19 +7,11 @@ defaults: &defaults
 
 development:
   <<: *defaults
-  host: localhost
   encoding: UTF8
-  username: postgres
-  password:
-  database: gateway_app_development
 
 test:
   <<: *defaults
-  host: localhost
   encoding: UTF8
-  username: postgres
-  password:
-  database: gateway_app_test
 
 production:
   <<: *defaults
